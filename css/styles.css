@@ -1,0 +1,460 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Inria Sans', sans-serif;
+    color: #0A3641;
+    background-color: #EBEFF4;
+    max-width: 100%;
+ }
+
+ .home, .bg-thanks {
+    background-image: url('../pictures/bg_home_man.jpg');    
+    background-size: cover;
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    height: 350%;
+    background: linear-gradient(to bottom, #80A1C9, transparent);
+}
+
+.logo-header {
+    padding: 20px;
+}
+
+.logo-header a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0A3641;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+
+nav li {
+    margin: 0 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.cta {
+    background-color: #8AE9D8;
+    display: inline-block;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0.6em 4em;
+    border-radius: 1em;
+    border: 0.2em solid #0A3641;
+    margin: 4.5em;
+}
+
+.cta:hover {
+    background: #80A1C9
+}
+.welcome {
+    text-align: center;
+}
+.welcome img {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    padding: 0;
+}
+
+.welcome h2 {
+    margin: 60px;
+    font-size: 20px;
+}
+
+.footer-one ul {
+    list-style: none;
+    margin-right: 100px;
+    padding: 0;
+}
+  
+.footer-one li {
+    margin-bottom: 10px;
+}
+
+.footer-two ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    background-color: #80A1C9;
+    color: #0A3641;
+    font-family: 'Inria Sans', sans-serif;
+  }
+
+.footer-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-left: 25px;
+  }
+.footer-one {
+    grid-column: 1;
+}
+
+.footer-two {
+    grid-column: 2;
+}
+
+.footer-three {
+    grid-column: 5;
+}
+
+.brands {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brands li {
+    margin-right: 0;
+    padding: 10px;
+}
+
+/* Contact us */
+
+.contact h1 {
+    font-size: 38px;
+    text-align: center;
+    color: #0A3641;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.contact p {
+    font-size: 20px;
+    text-align: center;
+    color: #0A3641;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.form form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.form label {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #0A3641;
+    font-family: 'Inria Sans', sans-serif;    
+}
+
+.form input[type="text"], .form textarea, .form select {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #0A3641;
+    border-radius: 0.25em;
+    font-family: 'Inria Sans', sans-serif;    
+}
+
+.form {
+    text-align: center;
+}
+
+/* Jackets */
+
+.outdoor, .hiking, .climbing, .water-sports {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 4em auto;
+    max-width: 1000px;
+    grid-gap: 5px;
+}
+
+.outdoor h2, .outdoor p, .hiking h2, .hiking p, .climbing h2, .climbing p, .water-sports h2, .water-sports p {
+    grid-column: -1/ 1;
+    margin: 3px;
+    font-family: 'Inria Sans', sans-serif; 
+    font-size: 20px;  
+}
+
+.outdoor-title, .hiking-title, .climbing-title, .water-sports-title {
+    text-align: center;
+    display: contents;
+}
+
+.view-more {
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.outdoor img, .hiking img, .climbing img, .water-sports img {
+    width: 65%;
+}
+
+.product-box {
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 40px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product-box p {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+}
+
+.product-box h3 {
+    font-weight: 300;
+}
+
+.product-box:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.line {
+    border-bottom: 4px solid #0A3641;
+    display: block;
+    display: block;
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 70%;
+}
+
+/* Jacket specific */
+
+.jacket-specific-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 50px;
+}
+
+.specific-img img {
+    max-width: 100%;
+    border: 1px solid #000;
+}
+
+.specific-description {
+    margin: 0;
+}
+
+.specific-description h1 {
+    margin-top: 0;
+}
+
+.price-description {
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.cta-cart {
+    margin: 30px auto;
+
+}
+
+/* Check-out */
+
+ .container-check {
+    max-width: 100% ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 50px;
+ }
+
+ .product-info ul {
+    list-style: none;
+    padding: 0;
+    line-height: 3;
+ }
+
+ .product-info {
+    background: #ddd;
+    border: 1px solid #000;
+ }
+
+ .product-info h2, .product-info ul {
+    text-align: left;
+    margin: 0 0 10px 0;
+ }
+
+ .total {
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ .checkouttitle {
+    text-align: center ;
+ }
+
+ .check-out-box {
+    margin-bottom: 50px;
+ }
+
+ .check-out-box > * {
+    padding: 25px 10px;
+ }
+
+ .shipping-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px
+ }
+
+ .shipping-form label {
+    display: none;
+ }
+
+ .shipping-form p {
+    margin: 0;
+ }
+
+ .full {
+    grid-column: 1 / 3;
+ }
+
+ .cta-purchase {
+    display: grid;
+    grid-column: 1 / 3;
+    margin: auto;
+ }
+
+.shipping-form, .shipping-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000;
+}
+
+/* Check-out-success */
+
+.success {
+    text-align: center;
+}
+
+.success h1 {
+    font-size: 60px;
+}
+
+.success h2 {
+    font-size: 25px;
+}
+
+.success h3 {
+    padding: 50px;
+}
+
+/* About us */
+
+.about-us {
+    text-align: center;
+}
+.about-us img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin: 3% auto;
+    padding: 0;
+}
+
+.about-us p {
+    padding: 0 30% 5%;
+ 
+}
+    
+/* Media Queries */
+
+@media (min-width: 1000px) {
+    .check-out-box {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .jacket-specific-container {
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-check {
+        padding: 40px;
+    }
+    
+    .jacket-specific-container {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .outdoor, .hiking, .water-sports, .climbing {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+    }
+
+    .about-us p {
+        padding: 0 15% 5%;
+    }
+
+    .about-us img {
+        max-width: 60%;
+    }
+
+    .contact p {
+        margin: 10%;
+    }
+
+    .welcome img {
+        max-width: 250px;
+        margin: 70px auto;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .container-check {
+        padding: 40px;
+    }
+
+    .shipping-form form {
+        grid-gap: 40px;
+        }
+
+    nav ul {
+        padding: 0 0 0 75px;
+    }
+
+    .logo-header {
+        padding: 20px 0 20px 130px;
+    }
+}
