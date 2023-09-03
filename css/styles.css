@@ -141,7 +141,6 @@ body {
     font-size: 20px;
     text-align: center;
     color: black
-    font-family: 'Inria Sans', sans-serif;
 }
 
 .form form {
@@ -207,7 +206,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin: 4em auto;
     max-width: 1000px;
-    grid-gap: 30px;
+    grid-gap: 40px 0;
   }
   
   .grid img {
@@ -266,12 +265,13 @@ body {
     margin-bottom: 4.5em;
     margin: 4em auto;
     max-width: 1000px;
-    grid-gap: 30px;
+    grid-gap: 0;
   }
   
   .grid-item {
     border: 5px solid red;
     text-align: center;
+    margin: 0 30px;
   }
   
   .grid-item img {
