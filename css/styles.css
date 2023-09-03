@@ -67,7 +67,7 @@ body {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: black;
+    background-color: white;
     min-width: 160px;
   }
   
@@ -76,7 +76,7 @@ body {
   }
   
   .dropdown-content a {
-    color: white;
+    color: black;
     padding: 10px;
     text-decoration: none;
     display: block;
@@ -85,6 +85,18 @@ body {
   .dropdown-content a:hover {
     color: aquamarine;
   }
+
+.brands {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brands li {
+    margin-right: 0;
+    padding: 10px;
+}
 
   a {
     text-decoration: none;
@@ -286,6 +298,7 @@ body {
 
   .grid-item-special {
     border: none;
+    margin: 12px;
   }
 
   .grid-item-special img {
