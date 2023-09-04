@@ -60,6 +60,7 @@ body {
   
   .dropdown {
     position: relative;
+    cursor: pointer;
   }
   
   .dropdown-content {
@@ -69,6 +70,7 @@ body {
     right: 0;
     background-color: white;
     min-width: 160px;
+    border: 1px solid #000000;
   }
   
   .dropdown:hover .dropdown-content {
@@ -285,6 +287,19 @@ body {
     text-align: center;
     margin: 0 30px;
   }
+
+  .green-border {
+    border: 5px solid green;
+  }
+
+  .yellow-border {
+    border: 5px solid yellow;
+  }
+
+  .blue-border {
+    border: 5px solid blue;
+  }
+  
   
   .grid-item img {
     max-width: 100%;
