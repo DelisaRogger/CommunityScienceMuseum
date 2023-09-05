@@ -93,7 +93,7 @@ body {
   }
 
   .dropdown-content a:hover {
-    color: aquamarine;
+    text-decoration: underline;
   }
 
 .brands {
@@ -288,7 +288,7 @@ body {
   .grid-item {
     border: 5px solid red;
     text-align: center;
-    margin: 0 30px;
+    margin: 0 20px;
   }
 
   .green-border {
@@ -326,7 +326,7 @@ body {
 
   /* Media Queries */
 
-  @media (max-width: 550px) {
+  @media (max-width: 530px) {
     .grid, .grid-container {
         grid-template-columns: auto;
         grid-gap: 30px;
