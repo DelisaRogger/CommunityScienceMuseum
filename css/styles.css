@@ -19,6 +19,7 @@ body {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
     margin: 1% 23%;
+    font-size: 31px;
   }
   
   .header {
@@ -329,5 +330,12 @@ body {
     .grid, .grid-container {
         grid-template-columns: auto;
         grid-gap: 30px;
+    }
+}
+
+    @media (max-width: 1145px) {
+    h1 {
+        font-size: 20px;
+        margin: 5px 5%;
     }
 }
