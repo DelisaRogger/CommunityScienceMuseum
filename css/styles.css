@@ -14,6 +14,12 @@ body {
     background-attachment: scroll;
     max-width: 100%;
   }
+   
+  h1 {
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    margin: 1% 23%;
+  }
   
   .header {
     background-color: black;
@@ -39,7 +45,6 @@ body {
   .menu {
     display: flex;
     align-items: center;
-    padding-right: 5px;
   }
   
   .menu ul {
@@ -50,7 +55,7 @@ body {
   }
   
   .menu li {
-    margin-right: 20px;
+    margin-right: 15px;
   }
   
   .menu a {
@@ -61,6 +66,8 @@ body {
   .dropdown {
     position: relative;
     cursor: pointer;
+    margin-left: 40px;
+
   }
   
   .dropdown-content {
@@ -191,9 +198,6 @@ body {
     padding: 20px;
   }
   
-  h1 {
-    text-align: center;
-  }
   
   .banner {
     text-align: center;
