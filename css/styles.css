@@ -212,7 +212,8 @@ body {
   .loc-paragraph {
     margin-bottom: 4.5em;
     text-align: left;
-    padding-right: 50%;
+    padding-right: 20%;
+    padding-left: 5%;
   }
 
   .grid {
@@ -262,9 +263,6 @@ body {
     font-weight: bold;
   }
 
-  .opening-hours {
-    padding-right: 60%;
-  }
 
   /* Exhibitions */
   
@@ -323,7 +321,7 @@ body {
 
   /* Media Queries */
 
-  @media (max-width: 650px) {
+  @media (max-width: 550px) {
     .grid, .grid-container {
         grid-template-columns: auto;
         grid-gap: 30px;
