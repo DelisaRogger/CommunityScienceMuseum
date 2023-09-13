@@ -19,9 +19,9 @@ body {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
     margin: 1% 23%;
-    font-size: 31px;
+    font-size: 30px;
   }
-  
+
   .header {
     background-color: black;
     color: white;
@@ -34,7 +34,7 @@ body {
   .logo {
     display: flex;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 10px;
   }
   
   .logo img {
@@ -46,7 +46,6 @@ body {
   .menu {
     display: flex;
     align-items: center;
-    margin-right: 20px;
   }
   
   .menu ul {
@@ -126,7 +125,7 @@ body {
 }
 
 .footer-text {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0;
 }
 
@@ -141,10 +140,13 @@ body {
     border-radius: 1em;
     border: 0.2em solid #ffffff;
     margin: 4.5em;
+    color: #fff;
 }
 
 .cta:hover {
-    background: #80A1C9
+    background: #ffffff;
+    color: black;
+    border: 0.2em solid black;
 }
 
 .banner {
@@ -234,6 +236,28 @@ body {
     max-width: 100%;
     height: auto;
   }
+   
+  .grid-item {
+    border: 5px solid red;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+ .grid-item:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+ }
+
+  .green-border {
+    border: 5px solid green;
+  }
+
+  .yellow-border {
+    border: 5px solid yellow;
+  }
+
+  .blue-border {
+    border: 5px solid blue;
+  }
   
   .grid .description {
     text-align: center;
@@ -269,6 +293,9 @@ body {
     font-weight: bold;
   }
 
+.cta-top {
+    margin-left: auto;
+}
 
   /* Exhibitions */
   
@@ -331,6 +358,10 @@ body {
     .grid, .grid-container {
         grid-template-columns: auto;
         grid-gap: 30px;
+    }
+
+    .cta-top {
+        margin: 4.5em;
     }
 }
 
