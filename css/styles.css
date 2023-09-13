@@ -9,70 +9,74 @@ body {
     padding: 0;
     font-family: 'Inria Sans', sans-serif;
     background-image: url('../pictures/ball-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat-y;
     background-attachment: scroll;
     max-width: 100%;
-  }
+}
    
-  h1 {
+h1 {
     text-align: center;
     font-family: 'Holtwood One SC', serif;
     margin: 1% 23%;
     font-size: 30px;
-  }
+}
 
-  .header {
+.header {
     background-color: black;
     color: white;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
   
-  .logo {
+.logo {
     display: flex;
     align-items: center;
     padding-left: 10px;
-  }
-  
-  .logo img {
+}
+
+.logo-txt {
+    color: #fff;
+}
+
+.logo img {
     width: 40px;
     height: 40px;
     margin-right: 10px;
-  }
+}
   
-  .menu {
+.menu {
     display: flex;
     align-items: center;
     list-style: none;
-  }
+}
   
-  .menu ul {
+.menu ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .menu li {
+.menu li {
     margin-right: 15px;
-  }
+}
   
-  .menu a {
+.menu a {
     text-decoration: none;
     color: white;
-  }
+}
   
-  .dropdown {
+.dropdown {
     position: relative;
     cursor: pointer;
     margin-left: 40px;
 
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
     display: none;
     position: absolute;
     top: 100%;
@@ -80,22 +84,22 @@ body {
     background-color: white;
     min-width: 160px;
     border: 1px solid #000000;
-  }
+}
   
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 10px;
     text-decoration: none;
     display: block;
-  }
+}
 
   .dropdown-content a:hover {
     text-decoration: underline;
-  }
+}
 
 .brands {
     list-style: none;
@@ -109,11 +113,16 @@ body {
     padding: 5px;
 }
 
-  a {
+a {
     text-decoration: none;
     color: #000000;
-  }
+}
 
+.banner {
+    width: 100%;
+    height: 35em;
+    text-align: center;
+}
 .footer {
     background-color: black;
     color: white;
@@ -148,6 +157,150 @@ body {
     background: #ffffff;
     color: black;
     border: 0.2em solid black;
+}
+
+/* Home */
+  
+.welcome, .cosmo, .biomed, .evolution {
+    text-align: center;
+    padding: 3% 10%;
+    font-size: 20px;
+}
+  
+.loc-paragraph {
+    margin-bottom: 4.5em;
+    text-align: left;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4em auto;
+    max-width: 1000px;
+    grid-gap: 40px 0;
+}
+  
+.grid img {
+    max-width: 100%;
+    height: auto;
+}
+   
+.grid-item {
+    border: 5px solid red;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.grid-item:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.green-border {
+    border: 5px solid green;
+}
+
+.yellow-border {
+    border: 5px solid yellow;
+}
+
+.blue-border {
+    border: 5px solid blue;
+}
+  
+.grid .description {
+    text-align: center;
+}
+
+.break-line {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+  
+.line-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-bottom: 20px;
+}
+  
+.line {
+    flex-grow: 1;
+    height: 5px;
+    background-color: black;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+.visit {
+    text-align: center;
+    font-weight: bold;
+}
+
+.visit-bold {
+    font-weight: bold;
+}
+
+.cta-top {
+    margin-left: auto;
+}
+
+/* Exhibitions */ /*Education*/
+  
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 4.5em;
+    margin: 4em auto;
+    max-width: 1000px;
+    grid-gap: 0;
+}
+  
+.grid-item {
+    border: 5px solid red;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.green-border {
+    border: 5px solid green;
+}
+
+.yellow-border {
+    border: 5px solid yellow;
+}
+
+.blue-border {
+    border: 5px solid blue;
+}
+  
+  
+.grid-item img {
+    max-width: 100%;
+    height: 20em;
+}
+
+/* Biology Medicine Special */
+
+.grid-item-special, .grid-item-cosmo, .grid-item-evo {
+    border: none;
+    margin: 12px;
+}
+
+.grid-item-special img, .grid-item-cosmo img, .grid-item-evo img {
+    max-width: 100%;
+    height: 18em;
+}
+
+.special-time {
+    text-align: center;
+    padding: 3% 10%;
+    font-size: 20px;
+    color: red;
+    text-decoration: underline; 
 }
 
 /* Contact */
@@ -186,166 +339,18 @@ body {
     text-align: center;
 }
 
-/* Home */
+/* Media Queries */
 
-.container {
-    padding: 20px;
-  }
-  
-  
-  .banner {
-    width: 100%;
-    height: 35em;
-    text-align: center;
-  }
-
-  .welcome {
-    text-align: center;
-    padding: 3% 10%;
-    font-size: 20px;
-  }
-  
-  .loc-paragraph {
-    margin-bottom: 4.5em;
-    text-align: left;
-    padding-right: 20%;
-    padding-left: 5%;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 4em auto;
-    max-width: 1000px;
-    grid-gap: 40px 0;
-  }
-  
-  .grid img {
-    max-width: 100%;
-    height: auto;
-  }
-   
-  .grid-item {
-    border: 5px solid red;
-    text-align: center;
-    margin: 0 20px;
-  }
-
- .grid-item:hover {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
- }
-
-  .green-border {
-    border: 5px solid green;
-  }
-
-  .yellow-border {
-    border: 5px solid yellow;
-  }
-
-  .blue-border {
-    border: 5px solid blue;
-  }
-  
-  .grid .description {
-    text-align: center;
-  }
-
-  .break-line {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-  }
-  
-  .line-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: black;
-    margin-bottom: 20px;
-  }
-  
-  .line {
-    flex-grow: 1;
-    height: 5px;
-    background-color: black;
-    margin: 0 30px;
-    margin-bottom: 20px;
-  }
-
-  .visit {
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .visit-bold {
-    font-weight: bold;
-  }
-
-.cta-top {
-    margin-left: auto;
+@media (max-width: 1145px) {
+    h1 {
+        font-size: 20px;
+        margin: 5px 5%;
+    }
 }
 
-  /* Exhibitions */
-  
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 4.5em;
-    margin: 4em auto;
-    max-width: 1000px;
-    grid-gap: 0;
-  }
-  
-  .grid-item {
-    border: 5px solid red;
-    text-align: center;
-    margin: 0 20px;
-  }
-
-  .green-border {
-    border: 5px solid green;
-  }
-
-  .yellow-border {
-    border: 5px solid yellow;
-  }
-
-  .blue-border {
-    border: 5px solid blue;
-  }
-  
-  
-  .grid-item img {
-    max-width: 100%;
-    height: 20em;
-  }
-
-  
-  /* Education */
-
-  /* Biology Medicine Special */
-
-  .grid-item-special {
-    border: none;
-    margin: 12px;
-  }
-
-  .grid-item-special img {
-    max-width: 100%;
-    height: 20em;
-  }
-
-  /* Media Queries */
-
-  @media (max-width: 530px) {
-    .grid, .grid-container {
-        grid-template-columns: auto;
-        grid-gap: 30px;
-    }
-
-    .cta-top {
-        margin: 4.5em;
+@media (max-width: 850px) {
+    .grid-item {
+        margin: 0 8px;
     }
 }
 
@@ -357,16 +362,13 @@ body {
     }
 }
 
-@media (max-width: 850px) {
-    .grid-item {
-        margin: 0 8px;
+@media (max-width: 530px) {
+    .grid, .grid-container {
+        grid-template-columns: auto;
+        grid-gap: 30px;
     }
-}
 
-
-    @media (max-width: 1145px) {
-    h1 {
-        font-size: 20px;
-        margin: 5px 5%;
+    .cta-top {
+        margin: 4.5em;
     }
 }
