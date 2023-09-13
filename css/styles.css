@@ -149,17 +149,6 @@ body {
     border: 0.2em solid black;
 }
 
-.banner {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-}
-
-.banner img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 /* Contact */
 
 .contact-text {
@@ -204,14 +193,11 @@ body {
   
   
   .banner {
+    width: 100%;
+    height: 30em;
     text-align: center;
   }
-  
-  .banner img {
-    max-width: 100%;
-    height: auto;
-  }
-  
+
   .welcome {
     text-align: center;
     padding: 3% 10%;
@@ -266,6 +252,7 @@ body {
   .break-line {
     display: flex;
     align-items: center;
+    margin: 0 10px;
   }
   
   .line-dot {
@@ -280,7 +267,7 @@ body {
     flex-grow: 1;
     height: 5px;
     background-color: black;
-    margin: 0 50px;
+    margin: 0 30px;
     margin-bottom: 20px;
   }
 
@@ -298,11 +285,6 @@ body {
 }
 
   /* Exhibitions */
-  
-  .banner {
-    width: 100%;
-    height: 35em;
-  }
   
   .grid-container {
     display: grid;
@@ -364,6 +346,21 @@ body {
         margin: 4.5em;
     }
 }
+
+@media (max-width: 650px) {
+    .banner {
+        width: 100%;
+        height: 12em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .grid-item {
+        margin: 0 8px;
+    }
+}
+
 
     @media (max-width: 1145px) {
     h1 {
