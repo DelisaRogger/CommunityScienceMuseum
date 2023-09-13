@@ -161,8 +161,14 @@ a {
 
 /* Home */
   
-.welcome, .cosmo, .biomed, .evolution {
+.welcome {
     text-align: center;
+    padding: 3% 10%;
+    font-size: 20px;
+}
+
+.cosmo, .biomed, .evolution {
+    text-align: initial;
     padding: 3% 10%;
     font-size: 20px;
 }
