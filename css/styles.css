@@ -210,6 +210,7 @@ a {
 .yellow-border {
     border: 5px solid yellow;
     background-color: #000000;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
 }
 
 .blue-border {
@@ -273,6 +274,10 @@ a {
     border: 8px solid red;
     text-align: center;
     margin: 0 20px;
+}
+
+.special {
+    background-color: #000000;
 }
 
 .green-border {
@@ -360,7 +365,11 @@ a {
     .grid, .grid-container {
         grid-template-columns: auto;
         grid-gap: 30px;
-        margin: 4% 27%;
+        margin: 4% 10%;
+    }
+
+    .grid-item img {
+        height: 35em;
     }
 }
 
@@ -376,6 +385,10 @@ a {
         height: 12em;
         text-align: center;
     }
+
+    .grid, .grid-container {
+        margin: 4% 15%;
+    }
 }
     
 @media (max-width: 530px) {
@@ -385,6 +398,10 @@ a {
     }
 
     .grid, .grid-container {
-        margin: 4% 15%;
+        margin: 4% 10%;
+    }
+
+    .grid-item img {
+        height: 18em;
     }
 }
