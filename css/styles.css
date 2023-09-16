@@ -130,7 +130,6 @@ a {
     padding: 5px;
     bottom: 0;
     width: 100%;
-    position: fixed;
     margin-top: auto;
 }
 
@@ -375,8 +374,8 @@ a {
     .grid, .grid-container {
         margin: 4% auto
     }
-    .grid-item img {
-        height: 27em;
+    .grid-item img, .grid-item-special img, .grid-item-cosmo img, .grid-item-evo img {
+        height: 30em;
     }
 }
 
@@ -407,7 +406,7 @@ a {
         margin: 4.5em;
     }
 
-    .grid-item img {
+    .grid-item img, .grid-item-special img, .grid-item-cosmo img, .grid-item-evo img {
         height: 18em;
     }
 }
