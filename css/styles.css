@@ -174,10 +174,11 @@ a {
 }
   
 .loc-paragraph {
-    margin-bottom: 4.5em;
     text-align: left;
     padding-right: 20%;
     padding-left: 5%;
+    background-color: rgb(136, 150, 174);
+    border: 2px solid black;
 }
 
 .grid {
@@ -247,18 +248,23 @@ a {
 }
 
 .visit {
-    text-align: center;
     font-weight: bold;
+    font-size: larger;
 }
 
 .visit-bold {
     font-weight: bold;
+    text-decoration: underline;
+    line-height: 5px;
+}
+
+.hours{
+    color: #801010;
 }
 
 .cta-top {
     margin-left: auto;
 }
-
 /* Exhibitions */ /*Education*/
   
 .grid-container {
@@ -278,6 +284,7 @@ a {
 
 .special {
     background-color: #000000;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
 }
 
 .green-border {
@@ -311,11 +318,14 @@ a {
 }
 
 .special-time {
-    text-align: center;
     padding: 3% 10%;
     font-size: 20px;
     color: red;
     text-decoration: underline; 
+}
+
+.book {
+    text-align: center;
 }
 
 /* Contact */
@@ -338,7 +348,6 @@ a {
     text-align: center;
     margin-top: 20px;
     color: #000000;
-    font-family: 'Inria Sans', sans-serif;    
 }
 
 .form input[type="text"], .form textarea, .form select {
@@ -347,7 +356,6 @@ a {
     font-size: 1em;
     border: 1px solid #000000;
     border-radius: 0.25em;
-    font-family: 'Inria Sans', sans-serif;    
 }
 
 .form {
