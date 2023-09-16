@@ -369,21 +369,23 @@ a {
         font-size: 20px;
         margin: 5px 5%;
     }    
-    
     .grid, .grid-container {
-        grid-template-columns: auto;
-        grid-gap: 30px;
-        margin: 4% 10%;
+        margin: 4% auto
     }
-
     .grid-item img {
-        height: 35em;
+        height: 27em;
     }
 }
 
 @media (max-width: 850px) {
     .grid-item {
         margin: 0 8px;
+    }    
+    
+    .grid, .grid-container {
+        grid-template-columns: auto;
+        grid-gap: 30px;
+        margin: 4% 10%;
     }
 }
 
@@ -394,19 +396,12 @@ a {
         text-align: center;
     }
 
-    .grid, .grid-container {
-        margin: 4% 15%;
-    }
 }
     
 @media (max-width: 530px) {
     
     .cta-top {
         margin: 4.5em;
-    }
-
-    .grid, .grid-container {
-        margin: 4% 10%;
     }
 
     .grid-item img {
