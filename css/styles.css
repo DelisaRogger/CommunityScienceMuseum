@@ -6,7 +6,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    padding: 0;
     font-family: 'Inria Sans', sans-serif;
     background-image: url('../pictures/ball-background.jpg');
     background-size: contain;
@@ -17,9 +16,17 @@ body {
    
 h1 {
     text-align: center;
-    font-family: 'Holtwood One SC', serif;
-    margin: 1% 23%;
+    font-family: 'Holtwood One SC', serif;    
     font-size: 30px;
+    margin: 1% 23%;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h3 {
+    line-height: 5px;
 }
 
 .header {
@@ -37,8 +44,9 @@ h1 {
     padding-left: 10px;
 }
 
-.logo-txt {
+.logo-txt, .menu a {
     color: #fff;
+    text-decoration: none;
 }
 
 .logo img {
@@ -47,26 +55,15 @@ h1 {
     margin-right: 10px;
 }
   
-.menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-  
-.menu ul {
+.menu ul, .menu, .brands {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
   
-.menu li {
+.menu li, .brands li {
     margin-right: 15px;
-}
-  
-.menu a {
-    text-decoration: none;
-    color: white;
 }
   
 .dropdown {
@@ -97,20 +94,8 @@ h1 {
     display: block;
 }
 
-  .dropdown-content a:hover {
+.dropdown-content a:hover {
     text-decoration: underline;
-}
-
-.brands {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.brands li {
-    margin-right: 0;
-    padding: 5px;
 }
 
 a {
@@ -123,6 +108,7 @@ a {
     height: 35em;
     text-align: center;
 }
+
 .footer {
     background-color: black;
     color: white;
@@ -187,17 +173,17 @@ a {
     max-width: 1000px;
     grid-gap: 40px 0;
 }
-  
-.grid img {
-    max-width: 100%;
-    height: auto;
-}
    
 .grid-item {
     border: 5px solid red;
     text-align: center;
     margin: 0 20px;
     background-color: #fff;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: 20em;
 }
 
 .grid-item:hover {
@@ -220,7 +206,7 @@ a {
     background-color: #fff;
 }
   
-.grid .description {
+.description {
     text-align: center;
 }
 .description-special {
@@ -249,17 +235,6 @@ a {
     margin-bottom: 20px;
 }
 
-.visit {
-    font-weight: bold;
-    font-size: larger;
-}
-
-.visit-bold {
-    font-weight: bold;
-    text-decoration: underline;
-    line-height: 5px;
-}
-
 .hours{
     color: #4a1515;
 }
@@ -267,6 +242,7 @@ a {
 .cta-top {
     margin-left: auto;
 }
+
 /* Exhibitions */ /*Education*/
   
 .grid-container {
@@ -277,37 +253,13 @@ a {
     max-width: 1000px;
     grid-gap: 0;
 }
-  
-.grid-item {
-    border: 8px solid red;
-    text-align: center;
-    margin: 0 20px;
-}
 
 .special {
     background-color: #000000;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 1);
 }
 
-.green-border {
-    border: 8px solid green;
-}
-
-.yellow-border {
-    border: 8px solid yellow;
-}
-
-.blue-border {
-    border: 8px solid blue;
-}
-  
-  
-.grid-item img {
-    max-width: 100%;
-    height: 20em;
-}
-
-/* Biology Medicine Special */
+/* Special / Cosmology / Evolution */
 
 .grid-item-special, .grid-item-cosmo, .grid-item-evo {
     border: none;
@@ -338,6 +290,10 @@ a {
     color: black
 }
 
+.form {
+    text-align: center;
+}
+
 .form form {
     display: grid;
     place-items: center;
@@ -358,10 +314,6 @@ a {
     font-size: 1em;
     border: 1px solid #000000;
     border-radius: 0.25em;
-}
-
-.form {
-    text-align: center;
 }
 
 /* Media Queries */
@@ -397,7 +349,6 @@ a {
         height: 12em;
         text-align: center;
     }
-
 }
     
 @media (max-width: 530px) {
