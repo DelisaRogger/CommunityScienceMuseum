@@ -8,12 +8,12 @@ A website designed to showcase the exhibits, events, and educational resources a
 
 ## Description
 
-This project is a fully responsive and interactive website built to promote a Science Museum. It features different sections like current exhibits, upcoming events, a gallery, and a contact form. 
+This project is a fully responsive and interactive website built to promote a Science Museum. It features different sections like current special exhibitions, educational service, pictures, and a contact form. 
 
 Key features of the website include:
 
-- Interactive gallery showcasing museum exhibits
-- Dynamic event calendar displaying upcoming science events
+- Gallery showcasing museum exhibits
+- Displaying special science event
 - Information about educational programs and resources for visitors
 - A fully responsive design for mobile and desktop users
 
@@ -23,8 +23,6 @@ The following technologies were used to build this project:
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-- ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
 
 ## Getting Started
 
@@ -44,7 +42,7 @@ To get a copy of the website up and running on your local machine, follow these 
     cd science-museum-website
     ```
 
-Since this project is built with HTML, CSS, and JavaScript, no additional installation steps are required.
+Since this project is built with HTML and CSS, no additional installation steps are required.
 
 ### Running
 
@@ -65,9 +63,9 @@ Alternatively, you can serve the project with a local development server, such a
 If you'd like to contribute to this project, follow these steps:
 
 1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to the branch.
 5. Open a pull request.
 
 All contributions are welcome! Make sure to submit a pull request for review before merging any changes.
@@ -76,12 +74,7 @@ All contributions are welcome! Make sure to submit a pull request for review bef
 
 For questions or inquiries, feel free to reach out:
 
-- [My Twitter page](https://www.twitter.com)
-- [My LinkedIn page](https://www.linkedin.com)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Email: delisa.rogger@gmail.com
 
 ## Acknowledgments
 
@@ -90,3 +83,4 @@ Special thanks to the following:
 - Inspiration from various science museum websites
 - JavaScript tutorials for implementing interactive features
 - Open-source resources for free images and icons
+- Teachers
