@@ -33,7 +33,7 @@ To get a copy of the website up and running on your local machine, follow these 
 1. Clone the repo:
 
     ```bash
-    git clone git@github.com:yourusername/science-museum-website.git
+    git clone git@github.com:DelisaRogger/science-museum-website.git
     ```
 
 2. Navigate to the project folder:
