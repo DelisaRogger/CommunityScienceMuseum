@@ -1,6 +1,8 @@
-# Science Museum Website
+# Community Science Museum Website
 
-![image](<img width="1439" alt="Screenshot 2024-10-01 at 11 13 20" src="https://github.com/user-attachments/assets/3cefa69e-6d40-4519-85c7-d3720bcf88a2">)
+<img width="1439" alt="Screenshot 2024-10-01 at 11 13 20" src="https://github.com/user-attachments/assets/3cefa69e-6d40-4519-85c7-d3720bcf88a2">
+
+
 
 A website designed to showcase the exhibits, events, and educational resources available at the Science Museum. This site provides visitors with an interactive and informative experience about the wonders of science.
 
