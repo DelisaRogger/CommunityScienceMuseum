@@ -34,7 +34,7 @@ https://www.figma.com/design/XFiwyQsMBVMLNOl2dZDuCu/Community-Science-Museum?nod
 1. Clone the repo:
 
     ```bash
-    git clone git@github.com:DelisaRogger/science-museum-website.git
+    git clone https://github.com/DelisaRogger/CommunityScienceMuseum
     ```
 
 Since this project is built with HTML and CSS, no additional installation steps are required.
@@ -42,14 +42,6 @@ Since this project is built with HTML and CSS, no additional installation steps 
 ## Running
 
 https://community-science-museum-delrog.netlify.app/
-
-To view the website, simply open the `index.html` file in your browser:
-
-1. In your project folder, double-click on `index.html`, or use this command:
-
-    ```bash
-    open index.html
-    ```
 
 Alternatively, you can serve the project with a local development server, such as Live Server for VSCode.
 
