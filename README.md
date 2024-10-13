@@ -8,11 +8,10 @@ A website designed to showcase the exhibits, events, and educational resources a
 
 ## Description
 
-This project is a fully responsive and interactive website built to promote a Science Museum. It features different sections like current special exhibitions, educational service, pictures, and a contact form. 
+This project is a fully responsive website built to promote a Science Museum. It features different sections like current special exhibitions, educational service, pictures, and a contact form. 
 
 Key features of the website include:
 
-- Gallery showcasing museum exhibits
 - Displaying special science event
 - Information about educational programs and resources for visitors
 - A fully responsive design for mobile and desktop users
