@@ -24,7 +24,9 @@ The following technologies were used to build this project:
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Getting Started
+### Prototype
+
+https://www.figma.com/design/XFiwyQsMBVMLNOl2dZDuCu/Community-Science-Museum?node-id=1-9&t=zD82jyoprxlbMmUN-1
 
 ### Installing
 
@@ -37,7 +39,7 @@ The following technologies were used to build this project:
 
 Since this project is built with HTML and CSS, no additional installation steps are required.
 
-### Running
+## Running
 
 https://community-science-museum-delrog.netlify.app/
 
